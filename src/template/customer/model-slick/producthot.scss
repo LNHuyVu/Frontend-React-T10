@@ -1,0 +1,105 @@
+.producthot{
+    border-radius: 5px;
+    background-color:  #BC1217;
+    // background-image: linear-gradient(#ff1100, white);
+    .box-zoom-out{
+        height: 170px;
+        overflow: hidden;
+        position: relative;
+        .sale{
+            position: absolute;
+            background-color: red;
+            padding: 0 2px 0 2px;
+            border-radius: 10px;
+            bottom:0;
+            left: 0;
+            margin:0 1rem;
+            color: white;
+            font-weight: bold;
+            font-size:90%;
+            
+        }
+        img { 
+            vertical-align:middle; 
+            max-width: 100%;
+            padding:1%;
+            transition: all 1s;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+
+    }
+    .card{
+        .text-graphics-card{
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card-text-home{
+            &:hover{
+                font-weight: bold !important;
+                color: blue !important;
+                transition: 0.3s;
+            }
+            
+        }
+        &:hover{
+            img{
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }  
+    }
+    // .slider{
+    //     height: 100%;
+    //     .slick-prev{
+    //         &::before{
+    //             color: rgb(250, 250, 250);
+    //             opacity: 1 !important;
+    //         }
+    //         z-index: 1;
+    //     }
+    //     .slick-next{
+    //         &::before{
+    //             color: rgb(250, 250, 250);
+    //             opacity: 1 !important;
+    //         }
+    //     }
+    //     .slick-prev, .slick-next{
+    //         top: 50%;
+    //         background-color: #797979;
+    //         opacity: 0.5;
+    //         border: 2px solid #d7d7d7;
+    //         height: 50px;
+    //         width: 50px;
+    //         border-radius: 50px;
+    //         &:hover{
+    //             opacity: 1;
+    //             background-color: rgb(10, 100, 255);
+    //         }
+    //     }
+    //     .slider-child{
+    //         // background: rgb(255, 1, 1);
+    //         padding: 10px;
+    //         border: none;
+    //         // margin: 10px;
+    //         .card{
+    //             background: yellow;
+    //             width: 100% !important;
+    //         }
+    //     }
+    // }
+    .seemore{
+        // border: 1px solid orange;
+        margin-top: 5px;
+        text-align: center;
+        button{
+            padding: 10px 10%;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}

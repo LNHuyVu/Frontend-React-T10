@@ -1,0 +1,110 @@
+.login-form-user * {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.login-form-user, .login-form-user {
+  height: 100%;
+}
+
+.login-form-user {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(135deg, rgba(26, 226, 252, 0.9), rgba(235, 189, 24, 0.9));
+  background-image: url("../../../public/image/background/backgroundDN6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.login-form-user {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.login-form-user .login-form {
+  width: 100%;
+  border-radius: 2em;
+  position: relative;
+  background-color: #12f784;
+}
+
+.login-form-user .login-form:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .login-form-user .login-form {
+    width: 80vw;
+    max-width: 80em;
+    max-height: 80%;
+  }
+}
+.login-form-user .flex-row {
+  display: flex;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.login-form-user .flex-row i {
+  position: absolute;
+  top: 15px;
+  right: 13px;
+}
+
+.login-form-user .lf--input {
+  flex: 1;
+  padding: 1em;
+  border: 0;
+  border-radius: 1em;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.login-form-user .lf--submit {
+  display: block;
+  padding: 1em;
+  width: 100%;
+  border-radius: 1em;
+  background: linear-gradient(to right, #35c3c1, #00d6b7);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-form-user .lf--forgot {
+  margin-top: 1em;
+  font-size: 0.65em;
+  width: 100%;
+  text-align: center;
+}
+
+.login-form-user a {
+  text-decoration: none;
+  color: #000;
+}
+
+.login-form-user ::-moz-placeholder {
+  color: #8f8f8f;
+}
+
+.login-form-user ::placeholder {
+  color: #8f8f8f;
+} /*# sourceMappingURL=register.css.map */

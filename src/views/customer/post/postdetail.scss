@@ -1,0 +1,17 @@
+.postdetail{
+    .post-title{
+        // font-family:'Courier New', Courier, monospace;
+    }
+    .detail{
+        h2{
+            font-size: 1rem;
+            font-weight: normal;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .related-posts{
+        border-left: 7px double #0d6efd;
+    }
+}

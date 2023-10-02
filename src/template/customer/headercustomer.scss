@@ -1,0 +1,96 @@
+.header1 {
+    width: 100%;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    .container-xxl {
+        a {
+            color: #fff;
+            text-decoration-line: none;
+        }
+    }
+    .nav-pills .nav-link {
+        color: white;
+    }
+    .row {
+        align-items: center;
+        // .col-md-8{
+        //     max-width: 770px;
+        // }
+    }
+    .logo {
+        img {
+            max-height: 56px;
+        }
+    }
+    .search {
+        background-color: #ffffff;
+        // background-color: #f7d800;
+        // border: 1px solid orange;
+        width: 40%;
+        margin: auto;
+        padding: 5px 0;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        input {
+            width: 95%;
+            background: transparent;
+            border: none;
+            &:focus {
+                background-color: none;
+                outline: none;
+            }
+        }
+        .icon-search {
+        }
+        div {
+            padding: 0;
+        }
+        button {
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            padding: 0;
+        }
+    }
+    .me-auto {
+        margin-right: 0 !important;
+    }
+    #basic-nav-dropdown {
+        color: white;
+    }
+    .account-cart {
+        border-left: 2px solid #f7d800;
+        border-right: 2px solid #f7d800;
+        .link {
+            display: grid;
+        }
+        span {
+            padding-left: 20px;
+            border-radius: 5px;
+            // background: white;
+            font-size: 14px;
+            // font-weight: bold;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .cart {
+        border: 1px solid white;
+        padding: 3px 5px;
+        border-radius: 10px;
+        position: relative;
+        .cart-number {
+            position: absolute;
+            right: -11px;
+            top: -11px;
+            font-size: 1rem;
+            padding: 0 8px;
+            border-radius: 50px;
+            background-color: #f7d800;
+        }
+    }
+}

@@ -1,0 +1,106 @@
+.login-form-admin {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.login-form-admin,
+.login-form-admin {
+  height: 100%;
+}
+.login-form-admin {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(135deg, rgba(26, 226, 252, 0.9), rgba(235, 189, 24, 0.9));
+  background-image: url("../../../public/image/background/maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 1.5em;
+}
+.login-form-admin {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  // opacity: 0.3;
+}
+.login-form-admin .login-form {
+  color: white;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  border-radius: 2em;
+  padding: 2em;
+  position: relative;
+  border: 2px solid #fff;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  input {
+    color:#fff;
+    background: rgba(254, 254, 254, 0.2);
+  }
+}
+.login-form-admin .login-form:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .login-form-admin .login-form {
+    width: 50vw;
+    max-width: 20em;
+  }
+}
+.login-form-admin .flex-row {
+  display: flex;
+  margin-bottom: 1em;
+  position: relative;
+}
+.login-form-admin .flex-row i {
+  position: absolute;
+  top: 15px;
+  right: 13px;
+}
+.login-form-admin .lf--input {
+  flex: 1;
+  padding: 1em;
+  border: 0;
+  border-radius: 1em;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+.login-form-admin .lf--submit {
+  display: block;
+  padding: 0.5em 1em;
+  width: 100%;
+  border-radius: 1em;
+  background: rgb(0, 94, 255);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.login-form-admin .lf--forgot {
+  margin-top: 1em;
+  font-size: 0.65em;
+  width: 100%;
+  text-align: center;
+}
+.login-form-admin a {
+  text-decoration: none;
+  color: #000;
+}
+.login-form-admin ::-moz-placeholder {
+  color: #8f8f8f;
+}
+.login-form-admin ::placeholder {
+  color: #8f8f8f;
+} /*# sourceMappingURL=Login.css.map */

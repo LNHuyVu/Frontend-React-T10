@@ -1,0 +1,15 @@
+.featuredcategory {
+  border-radius: 10px;
+  background-color: white;
+}
+.featuredcategory .col .item-category {
+  border: 2px solid orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.featuredcategory .col .item-category:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.featuredcategory .col:hover {
+  font-weight: bold;
+}/*# sourceMappingURL=featuredcategory.css.map */

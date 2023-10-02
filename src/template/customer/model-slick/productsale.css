@@ -1,0 +1,49 @@
+.productsale {
+  border-radius: 5px;
+  background-image: linear-gradient(rgb(0, 200, 255), white);
+}
+.productsale .slider {
+  height: 100%;
+}
+.productsale .slider .slick-prev {
+  z-index: 1;
+}
+.productsale .slider .slick-prev::before {
+  color: rgb(250, 250, 250);
+  opacity: 1 !important;
+}
+.productsale .slider .slick-next::before {
+  color: rgb(250, 250, 250);
+  opacity: 1 !important;
+}
+.productsale .slider .slick-prev, .productsale .slider .slick-next {
+  top: 50%;
+  background-color: #797979;
+  opacity: 0.5;
+  border: 2px solid #d7d7d7;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.productsale .slider .slick-prev:hover, .productsale .slider .slick-next:hover {
+  opacity: 1;
+  background-color: rgb(10, 100, 255);
+}
+.productsale .slider .slider-child {
+  padding: 10px;
+  border: none;
+}
+.productsale .slider .slider-child .card {
+  background: yellow;
+  width: 100% !important;
+}
+.productsale .seemore {
+  margin-top: 5px;
+  text-align: center;
+}
+.productsale .seemore button {
+  padding: 10px 10%;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}/*# sourceMappingURL=productsale.css.map */

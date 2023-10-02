@@ -1,0 +1,38 @@
+.posttechnology {
+    // background-color: rgb(30, 255, 0);
+    border-radius: 20px;
+    padding: 10px;
+    .link{  
+        cursor: pointer;
+        position: relative;
+        &:before {
+            opacity: 1;
+            content: "";
+            position: absolute;
+            width: 70%;
+            height: 3px;
+            bottom: 10px;
+            margin: -10px 0;
+            background-color: rgb(19, 3, 255);
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: all 0.4s ease-in-out 0s;
+        }
+        &:hover:before {
+            opacity: 1;
+            visibility: visible;
+            transform: scaleX(1);
+        }
+    }
+    .posttechnology-child{
+        // background-color: rgb(30, 255, 0);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 20px;
+    }
+    .card-text-title {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}

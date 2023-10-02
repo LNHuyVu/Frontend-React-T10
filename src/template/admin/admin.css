@@ -1,0 +1,29 @@
+.sidebar .szh-accordion__item-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4154f1;
+  background: #f6f9ff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+}
+.sidebar .szh-accordion__item-panel ul li {
+  background-color: transparent;
+}
+
+.sidebar-menu {
+  font-family: "Tilt Neon", cursive !important;
+  color: black !important;
+}
+.sidebar-menu a {
+  color: #000;
+}
+
+@media only screen and (min-width: 960px) {
+  .bi-list {
+    display: none;
+  }
+}/*# sourceMappingURL=admin.css.map */

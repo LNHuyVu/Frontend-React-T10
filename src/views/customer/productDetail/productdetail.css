@@ -1,0 +1,19 @@
+.product-detail .product-img {
+  padding: 0 10px;
+}
+.product-detail .product-data {
+  padding: 0 10px;
+}
+.product-detail .product-data .div-price {
+  border: 1px solid orange;
+}
+.product-detail .product-data .buy-now {
+  margin: 2% 0 2% 0;
+  justify-items: center;
+  border: 3px solid greenyellow;
+  padding: 0.5%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 30px;
+  background-color: green;
+}/*# sourceMappingURL=productdetail.css.map */
